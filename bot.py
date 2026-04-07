@@ -11,8 +11,8 @@ def home(): return "Bot is Running!"
 def run(): app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
 
 # --- CONFIG ---
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
-HF_TOKEN = os.environ.get('HF_TOKEN')
+BOT_TOKEN = os.environ.get('8637306574:AAEsbT1MsJB4Q_IVMkAR8_ZnJISt9oQ9wP4')
+HF_TOKEN = os.environ.get('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')
 # Stable AI Model URL
 API_URL = "https://api-inference.huggingface.co/models/google/real-esrgan-x2plus"
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
